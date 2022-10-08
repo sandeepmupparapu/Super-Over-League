@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.super-over-league-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  min-height: 100vh;
+}
+.heading {
+  font-family: "Roboto";
+  font-weight: 800;
+  color: white;
+  font-size: 32px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 68px;
+  }
+}
+.logo-image {
+  height: 140px;
+  width: 140px;
+}
+@media screen and (min-width: 768px) {
+  .logo-image {
+    width: 300px;
+    height: 300px;
+  }
+}
